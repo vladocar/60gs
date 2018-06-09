@@ -1,0 +1,22 @@
+{
+  "name": "60gs",
+  "version": "1.0.0",
+  "description": "60GS - 60 Columns Grid System based on CSS Grid Layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladocar/60gs.git"
+  },
+  "keywords": [
+    "grid"
+  ],
+  "author": "Vladimir Carrer <vladocar@gmail.com> (http://www.vcarrer.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladocar/60gs/issues"
+  },
+  "homepage": "https://github.com/vladocar/60gs#readme"
+}

@@ -1,4 +1,4 @@
-<p align="center"><img src="logo.png" /></p>
+<p align="center"><img src="60gs.png" /></p>
 
 <h1 align="center"> 60 Columns Grid System  </h1>
 
@@ -169,8 +169,10 @@ Yes, but 60 gs can take any value not just 960px and is much more flexible and f
 
 Thanks, I'll probably stick with Flexbox.
 
-P.S Ahh, You are still here. You are wondering where is the NPM command.. ahh sorry you prefer yarn. Didn't you read that npm is new yarn? Aha, you use web-pack lately. You can just copy paste, it's only one CSS class. Just kidding npm I love you too :)
+P.S Ahh, You are still here. You are wondering where is the NPM command.. ahh sorry you prefer yarn. Didn't you read that npm is new yarn? Aha, you use web-pack lately. You can just copy paste, it's only one CSS class. 
+
+Just kidding npm I love you too :)
 
 ```shell
-$ npm i some-awesome-library
+$ npm i ...
 ```

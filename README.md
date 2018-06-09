@@ -174,5 +174,13 @@ P.S Ahh, You are still here. You are wondering where is the NPM command.. ahh so
 Just kidding <a href="https://github.com/vladocar/npm-I-love-you-too">npm I love you too :)</a>
 
 ```shell
-$ npm i ...
+$ npm i 60gs
+```
+
+```html
+ <link rel="stylesheet" href="https://unpkg.com/60gs@1.0.0/60gs.css">
+
+or
+
+ <link rel="stylesheet" href="https://unpkg.com/60gs@1.0.0/60gs-barebone.css">
 ```

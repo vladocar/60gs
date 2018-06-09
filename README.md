@@ -189,3 +189,14 @@ or
 
  <link rel="stylesheet" href="https://unpkg.com/60gs@1.0.0/60gs-barebone.css">
 ```
+
+<h2> Demos </h2>
+
+[https://vladocar.github.io/60gs/](https://vladocar.github.io/60gs/)
+
+[Demo 1](https://vladocar.github.io/60gs/60-Grid-Demo.html)
+
+
+### License
+
+This project is licensed under the MIT License

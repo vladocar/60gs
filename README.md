@@ -173,6 +173,11 @@ P.S Ahh, You are still here. You are wondering where is the NPM command.. ahh so
 
 Just kidding <a href="https://github.com/vladocar/npm-I-love-you-too">npm I love you too :)</a>
 
+
+<h2> Install </h2>
+ 
+You can copy and paste the code, download it form GitHub, use npm or use CDN.
+
 ```shell
 $ npm i 60gs
 ```

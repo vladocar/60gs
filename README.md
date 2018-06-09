@@ -37,7 +37,7 @@ This is the easiest way to make 1- 6 column grid with equal width using the CSS 
 
 I’m talking about this picture:
 
-<img src="demo-grid.png">
+<a href="https://vladocar.github.io/60gs/"><img src="demo-grid.png"></a>
 
 Hmm.. I’m sceptical about this?
 
@@ -69,9 +69,9 @@ I don't get it? How you can add columns? I like to make my own semantic HTML5 fr
 
 You can. Make your own id and classes.
 
-I like layout with Header, Footer, Sidebar the classic style, how can I do that?
+I like layout with Header, Footer, Sidebar the classic style, how can I do that? 
 
-Hmm, nobody does that anymore but you are the boss.
+Hmm, nobody does that anymore, but you are the boss.
 
 You probably want something like this:
 
@@ -81,7 +81,7 @@ You probably want something like this:
 #article { grid-column: 17 / 61 }
 ```
 
-Here is the demo.
+<a href="https://vladocar.github.io/60gs/60.html">Here is the demo</a>
 
 I still don't understand  1 / 17 and 17 / 61 ?
 
@@ -129,11 +129,11 @@ Yes.
 
 Can I use Sass with this?
 
-Yes I’ve build some Sass. Go check the scss file.
+Yes I’ve build some Sass. Go check the 60gs.scss file.
 
 Is it responsive?
 
-It can be, I’ve made some basic responsiveness in the .css file and it is your task to add more features.
+It can be, I’ve made some basic responsiveness in the 60gs.css file and it is your task to add more features.
 
 Now some hard questions: Can I have 7 identical columns in one row?
 
@@ -171,7 +171,7 @@ Thanks, I'll probably stick with Flexbox.
 
 P.S Ahh, You are still here. You are wondering where is the NPM command.. ahh sorry you prefer yarn. Didn't you read that npm is new yarn? Aha, you use web-pack lately. You can just copy paste, it's only one CSS class. 
 
-Just kidding npm I love you too :)
+Just kidding <a href="https://github.com/vladocar/npm-I-love-you-too">npm I love you too :)</a>
 
 ```shell
 $ npm i ...

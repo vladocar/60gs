@@ -1,0 +1,104 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh10820\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 What is 60 Grid System?\
+\
+60 Grid System is starter grid for the CSS Grid.\
+\
+It is just one CSS class.\
+\
+Let me show you the code:\
+\
+.grid \{\
+          display: grid;\
+          grid-template-columns: repeat(60, 1fr)\
+        \}\
+\
+\
+You must be joking!? Is it some kind of dark magic?\
+\
+- I will show you it\'92s dark secrets in a minute. Just give me a chance to explain.\
+\
+Why 60 columns? 60 is the first number that is dividable by 2,3,4,5 and 6. \
+\
+This is the easiest way to make 1- 6 column grid with equal width using the CSS Grid. \
+\
+I\'92m talking about this picture:\
+\
+Hmm.. I\'92m sceptical about this?\
+\
+Back in the day the 960px was the magic number and was dividable by 2,3,4,5 and 6.  You all probably used 960px layout in the past.\
+\
+60 Grid System does the same thing 1 - 6 columns by making 60 smaller units. Plus is flexible.\
+\
+It will work with any 
+\b width
+\b0 :\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 .grid \{\
+	 width: 1237px or 83% or 40rem or any number   /* random numbers */\
+          display: grid;\
+          grid-template-columns: repeat(60, 1fr)\
+        \}\
+\
+You can also add grid-gap:\
+\
+.grid \{\
+	 width: 1237px or 83% or 40rem or any number   /* random numbers */\
+          display: grid;\
+	  grid-gap: 14px;   /* random number */\
+          grid-template-columns: repeat(60, 1fr)\
+        \}\
+\
+How do I add custom columns? Like you normally do with CSS Grid.\
+\
+\'93I like simple semantic layout with Header, Footer, Sidebar the classic style\'94 - Hmm, nobody does that anymore but you are the boss.\
+\
+You probably want something like this:\
+\
+#header, #footer \{ grid-column: 1 / 61 \}\
+#sidebar \{  grid-column: 1 / 17 \}\
+#article \{ grid-column: 17 / 61 \}\
+\
+Here is the demo.\
+\
+So I can add my own custom columns with my own naming system? Yes, absolutely.\
+\
+I just need to specify the grid-column to go form 1 to 61, right? Yes, exactly.\
+\
+What about overlapping columns? Sure you can do overlapping columns as well. Example (1 to 23. 17 to 30\'85)\
+\
+Is there smarter way to handle this grid like OOP? Yes , sure you can merge columns like this:\
+\
+.col-30 \{ grid-column-end: span 30 \}  /* 2 columns */\
+\
+<div class=\'93col-30\'94> 50% </div>\
+<div class=\'93col-30\'94> 50% </div>\
+\
+Aha, so it is important to 30 + 30 = 60 meaning 50% and 50% column? Yes.\
+\
+Can I use Sass with this? Yes I\'92ve build some Sass. Go check  the scss file.\
+\
+Is it responsive? It can be, I\'92ve made some basic responsiveness in the .css file it is your task to add more fitures.\
+\
+Now some hard questions: Can I have 7 identical columns in one row? Answer: No. Who does 7 columns !? Not even Rick and Morty have 7 columns in their grid! And Rick is the smartest men in the universe.\
+\
+But the designer made 7 column grid, I don\'92t know what to do? Fire the designer.\
+\
+But seriously I need 7 columns? Allllright..  .grid7\{ grid-template-columns: repeat(7, 1fr) \} .somename\{grid-column-end: span 1\} and put the grin7 inside the grid.\
+\
+What about 11 columns? Do you know to play Russian roulette .. play it for 11 times .. problem solved :)\
+\
+I played it for 11 times can you now tell me the solution? Hmm.. you lucky bas\'85 Yes, you need to do the same thing like with the 7 columns.\
+\
+Everyone was CSS Grid is the next big thing.. now I need to have 60 columns so I can have 6 columns? There's more than one way to skin a cat, use the solution that works best for you.\
+\
+What about browser compatibility? First, know your customers. If your customers are people like me and you you don\'92t have a problem.. otherwise go with the flow ->  float.\
+\
+So basically 60 gs is like the 960px grid but just for the CSS Grid? Yes, but 60 gs can take any value not just 960px and is much more flexible and fluid plus is super easy to make your grid-gap. \
+\
+}

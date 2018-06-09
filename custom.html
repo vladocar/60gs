@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>60 Columns CSS Grid</title>
+
+    <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="60gs.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-size-adjust: none;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            text-align: center;
+        }
+        .styling {
+            background-color: #46b2fd;
+            color: #fff;
+            border-radius: 4px;
+            padding: 12px;
+        }
+        .border {
+            border: 1px #fa025d solid
+        }
+        .center {
+            text-align: center;
+        }
+        .custom1 {
+            grid-column: 1 / 24;
+        }
+        .custom2 {
+            grid-column: 24 / 39;
+        }
+        .custom3 {
+            grid-column: 39 / 61;
+        }
+        .custom4 {
+            grid-column: 1 / 15;
+        }
+        .custom5 {
+            grid-column: 15 / 31;
+        }
+        .custom6 {
+            grid-column: 31 / 42;
+        }
+        .custom7 {
+            grid-column: 42 / 61;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="grid">
+        <div class="styling custom1">Custom1 from (1 / 24)</div>
+        <div class="styling custom2">Custom2 from (24 / 39)</div>
+        <div class="styling custom3">Custom3 from (39 / 61)</div>
+        <div class="styling custom4">Custom4 from (1 / 15)</div>
+        <div class="styling custom5">Custom5 from (15 / 31)</div>
+        <div class="styling custom6">Custom6 from (31 / 42)</div>
+        <div class="styling custom7">Custom7 from (42 / 61)</div>
+
+    </div>
+</body>
+</html>

@@ -169,9 +169,11 @@ Yes, but 60 gs can take any value not just 960px and is much more flexible and f
 
 Thanks, I'll probably stick with Flexbox.
 
-P.S Ahh, You are still here. You are wondering where is the NPM command.. ahh sorry you prefer yarn. Didn't you read that npm is new yarn? Aha, you use web-pack lately. You can just copy paste, it's only one CSS class. 
+P.S Ahh, You are still here. You are wondering where is the NPM command.. ahh sorry you prefer yarn. Didn't you read that npm is new yarn? Aha, you use webpack lately. You can just copy paste, it's only one CSS class. 
 
 Just kidding <a href="https://github.com/vladocar/npm-I-love-you-too">npm I love you too :)</a>
+
+P.S.S Please, don't be that guy who says: Why do I need another grid CSS Grid? CSS Grid is already a grid we no longer need to use any layout template.. Let me give you a simple answer: 60 GS can be applied on any medium Photoshop, Illustrattor, Paper.. 60 Grid System is pure math. You can use the 60 Grid units to make meaniful Grid System. CSS Grid is just a starting tool just like Photoshop or Illustrator.
 
 
 <h2> Install </h2>

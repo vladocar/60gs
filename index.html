@@ -40,7 +40,6 @@
             text-align: left;
             font-style: normal;
             font: 16px/ 1.6 Monaco, Consolas, 'Lucida Console', monospace;
-            overflow-x: scroll;
         }
         .styling {
             background-color: #46b2fd;
@@ -62,6 +61,11 @@
         }
         .custom3 {
             grid-column: 39 / 61;
+        }
+        @media (max-width: 600px)   {
+            pre {
+            overflow-x: scroll;
+            }
         }
     </style>
 
